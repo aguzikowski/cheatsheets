@@ -1,0 +1,27 @@
+Notes on Basic Git Functions:
+
+Tracking Changes:
+
+	git init: makes a directory a git repo
+	git add: tells git to start keeping track of something
+	git commit -m: tells git to record your changes
+	git diff: shows changes so you can review them
+	git diff --staged: shows changes b/w last commit and what is currently in the staging area
+	git log: history of changes
+	git checkout -b: creates/names a new branch
+
+Exploring History:
+
+	HEAD ~#: allows you to see older changes (ex: git diff HEAD~2 file.txt shows two changes ago)
+	git checkout: restores to the latest saved commit
+
+Ignoring Things:
+	git ignore
+
+Remotes:
+	git remote add origin: connect local to github
+	git origin push master: push changes from your remote repo to github repo
+	git origin pull master: pulls changes from github repo to local
+
+Conflicts:
+	if you get a merge conflict you need to pull changes from github, merge, and then push

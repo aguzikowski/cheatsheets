@@ -1,0 +1,50 @@
+Lecutre Notes for Week 01
+Basic Unix Commands and The Nano Text Editor
+
+
+UNIX COMMANDS
+pwd: present working directory
+
+~ : home directory
+
+cd: change directory
+
+ls: list directory contents (files)
+
+man: manual for whatever command you specify (opens in new window)
+
+mkdir: make directory
+
+cd ..: change back to home directory
+
+touch file.txt: create an empty file called "text"
+
+cat: look at file's contents
+
+echo "example" >> file.txt: this will append "example" into the file called "file"
+
+wc: line count
+
+mv: move (must specify origin and destination after)
+
+cp: copy (must specify origin and destination after)
+
+scp: secure copy
+
+chmod: permissions
+
+awk: extract lines based on desired specifications you input
+
+less/more: read/navigate through a file in a new screen
+
+grep: searches the given file for lines containing a match to the given strings or words
+
+USING NANO
+NAVIGATION COMMANDS:
+	^a	move to beginning of line
+	^e	move to end of line
+	^v	move down a page
+	^y	move up a page
+
+EDITING COMMANDS:
+	^k	delete line
