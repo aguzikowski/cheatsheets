@@ -21,6 +21,12 @@ touch file.txt: create an empty file called "text"
 
 cat: look at file's contents
 
+>> if you want to add text to a file instead of overwriting the current text you use >> (instead of just one >
+
+combined:  if you have two text files and you want to combine them into one file you type them and carrot combined (emptyfle.txt emptyfile2.txt < combined)
+
+* :used to designate/move all of the contents of a folder
+
 echo "example" >> file.txt: this will append "example" into the file called "file"
 
 wc: line count
